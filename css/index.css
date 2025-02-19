@@ -50,16 +50,22 @@ section{
     text-align: center;
   }
 
+  .cta-tuiju a:hover{
+    padding: 10px 40px;
+  }
+
   .cta-tuiju span{
     font-size: 2rem;
+    font-weight: bold;
   
   }
 
 
+
 .cta-tuiju a{
 display: inline-block;
-  background-color: green;
-  color: white;
+  background-color: yellow;
+  color: black;
 padding: 0 30px;
   border: 5px solid black;
   border-radius: 50px;
@@ -350,6 +356,18 @@ margin-bottom: 50px;
 .nouki p{
   width: 100%;
 }
+footer{
+  background-color: red;
+  height: 210px;
+  font-size: 5vw;
+}
+
+footer p{
+  display: block;
+  padding-top: 20px;
+  color: white;
+}
+
 
 
 @media screen and (max-width: 768px) {
